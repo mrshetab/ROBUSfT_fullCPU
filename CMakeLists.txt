@@ -9,17 +9,17 @@ set(CMAKE_CXX_FLAGS "-Wall -Wextra -fopenmp")
 
 set(CMAKE_CXX_FLAGS_DEBUG "-g")
 set(CMAKE_CXX_FLAGS_RELEASE "-O3")
-set(CUDA_TOOLKIT_ROOT_DIR "/usr/local/cuda-11.3") 
+# set(CUDA_TOOLKIT_ROOT_DIR "/usr/local/cuda-11.3") 
 
-project(ROBUSfTt VERSION 1.0.0)
+project(ROBUSfT_fullCPU VERSION 1.0.0)
 
 find_package(OpenCV REQUIRED)
 find_package (Eigen3 REQUIRED)
-find_package(PopSift CONFIG REQUIRED)
+# find_package(PopSift CONFIG REQUIRED)
 
-if(PopSift_USE_NVTX_PROFILING)
-  list(APPEND PD_LINK_LIBS ${CUDA_NVTX_LIBRARY})
-endif(PopSift_USE_NVTX_PROFILING)
+# if(PopSift_USE_NVTX_PROFILING)
+#   list(APPEND PD_LINK_LIBS ${CUDA_NVTX_LIBRARY})
+# endif(PopSift_USE_NVTX_PROFILING)
 
 include_directories(${OpenCV_INCLUDE_DIRS} ${EIGEN3_INCLUDE_DIRS})
 add_definitions( ${EIGEN3_DEFINITIONS} )
