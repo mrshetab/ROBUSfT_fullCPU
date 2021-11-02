@@ -54,4 +54,6 @@ The 3D coordinates of the object mesh in the camera coordinates frame are stored
 
 In order to switch the report (will be printed in terminal) and the plots on or off, the global boolean variable `ROBUSfT_report` and `ROBUSfT_plot` can be set. 
 
+## Acknowledgements
 
+This work was supported by project SOFTMANBOT, which received funding from the European Union’s Horizon 2020 research and innovation programme under grant agreement No 869855.
