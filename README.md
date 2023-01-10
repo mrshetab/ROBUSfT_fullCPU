@@ -4,6 +4,9 @@ ROBUSFT is a ready-to-use C++ library for monocular real-time 3D shape tracking 
 ROBUSFT forms a template from a deforming object and uses that to infer the deformation of the object in an input image (or a series of input images in a video). Each frame is processed independently. This makes ROBUSfT wide-baseline and resistant against losing the object in the video.  
 This library is a full CPU version of the original [ROBUSfT](https://github.com/mrshetab/ROBUSfT) which is a CPU-GPU library. The original ROBUSfT is capable of tracking deformable objects up to 30fps on a Dell laptop with an Intel Core i7 2.60GHz CPU and a Quadro T1000 GPU. This speed is up to 20fps for this full CPU version.
 
+Here is the video of the paper:
+[![Watch the video](https://github.com/mrshetab/ROBUSfT/blob/main/Screenshots/video_screenshot.png?raw=true)](https://www.youtube.com/watch?v=OgHNf0QGo_E)
+
 ## Dependencies
 
 ROBUSfT_fullCPU depends on:
