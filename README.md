@@ -5,7 +5,7 @@ ROBUSFT forms a template from a deforming object and uses that to infer the defo
 This library is a full CPU version of the original [ROBUSfT](https://github.com/mrshetab/ROBUSfT) which is a CPU-GPU library. The original ROBUSfT is capable of tracking deformable objects up to 30fps on a Dell laptop with an Intel Core i7 2.60GHz CPU and a Quadro T1000 GPU. This speed is up to 20fps for this full CPU version.
 
 Here is the video of the paper:
-[![Watch the video](https://github.com/mrshetab/ROBUSfT/blob/main/Screenshots/video_screenshot.png?raw=true)](https://youtu.be/-_Q7TqWgZ-A)
+[![Watch the video](https://github.com/mrshetab/ROBUSfT/blob/main/Screenshots/video_screenshot.png?raw=true)](https://youtu.be/5tFIf7-eEKg)
 
 ## Dependencies
 
